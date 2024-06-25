@@ -49,7 +49,6 @@ header {
     border-bottom-right-radius: 10px;
 
     position: relative;
-    /* Assure que le z-index fonctionne */
 }
 
 header img {
@@ -60,12 +59,9 @@ header img[alt="language"] {
     position: absolute;
     top: 50%;
     right: -14px;
-    /* Ajustez selon la moitié de la largeur de l'image */
     transform: translateY(-50%);
     width: 28px;
-    /* Ajustez selon vos besoins */
     height: auto;
-    /* Maintient le ratio de l'image */
 }
 
 button {
